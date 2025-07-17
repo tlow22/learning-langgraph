@@ -1,25 +1,34 @@
 # learning-langgraph
-A repo containing `marimo` notebooks that are intended to learn `LangGraph` 
 
-
-# Getting Started
+A repo of `marimo` notebooks for learning `LangGraph`.
 
 ## Quick Setup
 
-1. **Install uv** (if not already installed):
+1. **Install Python 3.12+**  
+   Download: https://www.python.org/downloads/
+
+2. **Install uv**  
    ```bash
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
-2. **Install dependencies**:
+3. **Install dependencies**  
    ```bash
    uv sync
    ```
 
-3. **Start marimo**:
+4. **Set up environment variables** (if needed)  
    ```bash
-   uv run marimo edit
+   cp .env.example .env
+   # Edit .env to add your API keys and secrets
    ```
 
-That's it! You're ready to explore the LangGraph tutorials.
+5. **Start marimo**  
+   ```bash
+   uv run marimo edit tutorials/<notebook>.py
+   ```
+
+You're ready to explore the LangGraph tutorials!
+
+
 
