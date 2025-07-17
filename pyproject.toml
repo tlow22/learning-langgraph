@@ -8,3 +8,6 @@ dependencies = [
     "langchain>=0.3.26",
     "marimo>=0.14.11",
 ]
+
+[tool.marimo.runtime]
+dotenv = [".env", ".env.testing"]
